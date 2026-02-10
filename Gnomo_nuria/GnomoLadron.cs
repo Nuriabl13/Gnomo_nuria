@@ -10,8 +10,8 @@ namespace Gnomo_nuria
     {
         private string especialidad;
 
-        public GnomoLadron(string nombre, string color, string especialidad)
-            : base(nombre, color)
+        public GnomoLadron(string nombre, string color, string especialidad, int vida)
+            : base(nombre, color, vida)
         {
             this.especialidad = especialidad;
         }

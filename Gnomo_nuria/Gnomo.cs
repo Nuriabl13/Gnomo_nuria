@@ -10,11 +10,13 @@ namespace Gnomo_nuria
     {
         protected string nombre;
         protected string color;
+        protected int vida;
 
-        public Gnomo(string nombre, string color)
+        public Gnomo(string nombre, string color, int vida)
         {
             this.nombre = nombre;
             this.color = color;
+            this.vida = vida;
         }
 
         public string Nombre
@@ -28,5 +30,13 @@ namespace Gnomo_nuria
             get { return color; }
             set { color = value; }
         }
+
+        public int Vida
+        {
+            get { return vida; }
+            set { vida = 100; }
+        }
+
     }
+
 }
